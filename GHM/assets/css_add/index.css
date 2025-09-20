@@ -1,0 +1,231 @@
+/* ===== NAVBAR ===== */
+.logo_soratra {
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.logo-t {
+    margin-top: 40px;
+}
+
+/* ===== CONTENU 1 ===== */
+
+#carousel1 {
+    background-image: url(../images/content1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#contenu12 {
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+}
+
+/* ===== CONTENU 3 ===== */
+.contenu3 {
+    background-image: url(../images/contenu3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#contenu3-right {
+    color: white;
+}
+
+#btn-contenu3 {
+    color: white;
+    background-color: #2dc751;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#btn-contenu3:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* ===== CONTENU 5 ===== */
+#texte-contenu5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ===== SOCIAL CARDS ===== */
+#social,
+#social1,
+#social2 {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#social:hover,
+#social1:hover,
+#social2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#social {
+    background-image: url(../images/mains.jpg);
+    border-radius: 10px;
+}
+
+#social1 {
+    background-image: url(../images/droits.jpg);
+    background-color: rgb(61, 99, 4);
+}
+
+#social2 {
+    background-image: url(../images/environement.jpg);
+    background-color: rgb(57, 94, 1);
+}
+
+/* ===== CONTENU 5 WRAPPER ===== */
+.contenu5 {
+    height: 700px;
+    padding: 20px;
+}
+
+/* ===== CONTENU 6 WRAPPER ===== */
+.contenu6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/plage.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Gradation de noir à transparent */
+}
+
+/* ===== CONTENU 7 ===== */
+.contenu7 {
+    background: linear-gradient(to right, green 0%, yellow 80%);
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .contenu1,
+    .contenu3,
+    .contenu5 {
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    #texte-contenu5 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #social,
+    #social1,
+    #social2 {
+        margin-bottom: 20px;
+    }
+}
+
+.valeur {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.valeur img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.valeur strong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #f7c600;
+    /* jaune */
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    /* chevauche l'image */
+    transition: all 0.3s ease;
+}
+
+/* Hover : cercle devient vert */
+.valeur strong:hover {
+    background: #6a9e3f;
+    color: #fff;
+    transform: scale(1.05);
+}
