@@ -16,22 +16,9 @@
     color: #007bff;
 }
 
-.navbar .btn {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
 .navbar .btn:hover {
     background-color: #28a745;
     color: white;
-}
-
-.navbar .dropdown-menu .dropdown-item {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navbar .dropdown-menu .dropdown-item:hover {
-    background-color: #f8f9fa;
-    color: #007bff;
 }
 
 .navbar-brand img {
@@ -42,45 +29,15 @@
     transform: scale(1.1);
 }
 
-.logo-t {
-    margin-top: 40px;
-}
-
-/* ===== CONTENU 1 ===== */
-
-#carousel1 {
-    background-image: url(../images/content1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-#contenu12 {
-    font-weight: 700;
-    color: white;
-    font-size: 2rem;
-}
-
 /* ===== CONTENU 3 ===== */
 .contenu3 {
     background-image: url(../images/contenu3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     padding: 20px;
-}
-
-#contenu3-right {
-    color: white;
 }
 
 #btn-contenu3 {
@@ -88,8 +45,7 @@
     background-color: #2dc751;
     border: none;
     padding: 10px 20px;
-    margin-top: 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: 0.3s;
 }
 
 #btn-contenu3:hover {
@@ -99,12 +55,15 @@
 
 /* ===== CONTENU 5 ===== */
 #texte-contenu5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
     text-align: center;
     font-weight: bold;
+}
+
+.expertise-title {
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
 /* ===== SOCIAL CARDS ===== */
@@ -114,13 +73,11 @@
     height: 250px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: 0.3s;
 }
 
 #social:hover,
@@ -132,100 +89,131 @@
 
 #social {
     background-image: url(../images/mains.jpg);
-    border-radius: 10px;
 }
 
 #social1 {
     background-image: url(../images/droits.jpg);
-    background-color: rgb(61, 99, 4);
 }
 
 #social2 {
     background-image: url(../images/environement.jpg);
-    background-color: rgb(57, 94, 1);
 }
 
-/* ===== CONTENU 5 WRAPPER ===== */
-.contenu5 {
-    height: 700px;
-    padding: 20px;
-}
-
-/* ===== CONTENU 6 WRAPPER ===== */
+/* ===== CONTENU 6 ===== */
 .contenu6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/plage.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
     background-size: cover;
-    /* Gradation de noir à transparent */
-}
-
-/* ===== CONTENU 7 ===== */
-.contenu7 {
-    background: linear-gradient(to right, green 0%, yellow 80%);
-    text-align: center;
-    color: white;
-    padding: 60px 20px;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
-
-    .contenu1,
-    .contenu3,
-    .contenu5 {
-        height: auto;
-        padding: 40px 20px;
-        text-align: center;
-    }
-
-    #texte-contenu5 {
-        flex-direction: column;
-        height: auto;
-    }
-
-    #social,
-    #social1,
-    #social2 {
-        margin-bottom: 20px;
-    }
-}
-
-.valeur {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+    background-repeat: no-repeat;
 }
 
 .valeur img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
 .valeur strong {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: #f7c600;
-    /* jaune */
-    color: #000;
-    font-weight: bold;
-    text-align: center;
     margin: auto;
     position: relative;
-    top: -40px;
-    /* chevauche l'image */
-    transition: all 0.3s ease;
+    top: -30px;
+    transition: 0.3s;
 }
 
-/* Hover : cercle devient vert */
 .valeur strong:hover {
     background: #6a9e3f;
+    color: white;
+}
+
+/* ===== CONTENU 7 ===== */
+.contenu7 {
+    background: linear-gradient(to right, green 0%, yellow 80%);
+    color: white;
+}
+
+/* ===== CONTENU 8 ===== */
+.contenu8 {
+    background-image: url("../images/arriere.png");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.contenu8 h1 {
+    color: #83b821;
+    font-weight: bold;
+}
+
+#chiffre {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
     color: #fff;
-    transform: scale(1.05);
+    background-color: #83b821;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#txt {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #chiffre {
+        font-size: 2rem;
+        min-width: 80px;
+        min-height: 80px;
+    }
+
+    #txt {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .contenu3,
+    .contenu5 {
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    #social,
+    #social1,
+    #social2 {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .valeur img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .valeur strong {
+        width: 80px;
+        height: 80px;
+        font-size: 0.9rem;
+        top: -20px;
+    }
+
+    #txt {
+        font-size: 1rem;
+    }
 }
