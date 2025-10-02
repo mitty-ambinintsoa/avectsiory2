@@ -1,6 +1,0 @@
-.list-unstyled li:hover {
-    transform: scale(1.05);
-    background-color: greenyellow;
-    width: 100%;
-    border-radius: 40px;
-}
