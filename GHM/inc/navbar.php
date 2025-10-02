@@ -31,6 +31,7 @@
                             data-bs-toggle="dropdown" aria-expanded="false">À propos</a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="../pages/histoire.php">Notre histoire</a></li>
+                            <li><a class="dropdown-item" href="../pages/mission.php">Nos missions</a></li>
                             <li><a class="dropdown-item" href="../pages/equipe.php">Notre équipe</a></li>
                             <li>
                                 <hr class="dropdown-divider">
