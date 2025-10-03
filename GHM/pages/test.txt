@@ -1,3 +1,4 @@
+//realisation.php
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -283,144 +284,6 @@
 
                     </div>
                 </div>
-                <!-- RÉALISATION 5 - ÉLAN FÉMININ : SOLIDARITÉ ET RÉSILIENCE -->
-                <div class="realisation-item" data-id="5">
-                    <div class="realisation-header">
-                        <h2 class="realisation-title">ÉLAN FÉMININ : SOLIDARITÉ ET RÉSILIENCE</h2>
-                        <p class="realisation-location">Relèvement post-cyclone GAMANE - Nord de Madagascar - 2024</p>
-                    </div>
-
-                    <div class="realisation-content">
-                        <div class="content-section">
-                            <h3 class="section-title">CONTEXTE</h3>
-                            <div class="section-content">
-                                <div class="row align-items-start">
-                                    <div class="col-lg-8">
-                                        <p>Dans les régions nord de Madagascar, le cyclone GAMANE a causé des pertes humaines, matérielles et agricoles majeures. L'impact a été le plus sévère dans les 14 districts du Nord, notamment le district d'Ambilobe, figure parmi les zones les plus touchées, avec des milliers de familles sinistrées.</p>
-                                        <p>La commune rurale d'Antsaraikely, déjà marginalisée structurellement, a subi des dégâts considérables : terres agricoles détruites, habitations effondrées, écoles dévastées, et perte de bétail. En toile de fond, cet événement climatique et cette catastrophe a amplifié les inégalités de genre et l'exclusion sociale, ainsi que les risques de violences basées sur le genre. Les femmes, premières victimes, se retrouvent démunies et isolées des communautés rurales sans soutien adapté. Soulignant l'urgence d'une intervention ciblée, sensible au genre et durable.</p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="context-details">
-                                            <div class="detail-item">
-                                                <strong>Localisation :</strong>
-                                                <span>Commune rurale d’Antsaraikely, District d’Ambilobe</span>
-                                            </div>
-                                            <div class="detail-item">
-                                                <strong>Année de mise en œuvre :</strong>
-                                                <span>2024 (en cours)</span>
-                                            </div>
-                                            <div class="detail-item">
-                                                <strong>Thèmes :</strong>
-                                                <span>Résilience post-catastrophe, autonomisation des femmes, activités agricoles écologiques, lutte contre les violences basées sur le genre</span>
-                                            </div>
-                                            <div class="detail-item">
-                                                <strong>Financement :</strong>
-                                                <span>Urgent Action Fund Africa</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="content-section">
-                            <h3 class="section-title">OBJECTIFS DE L'INTERVENTION</h3>
-                            <div class="section-content">
-                                <ul class="objectives-list">
-                                    <li>Répondre aux besoins immédiats et spécifiques des femmes rurales sinistrées.</li>
-                                    <li>Renforcer la protection des droits fondamentaux des femmes en contexte de crise.</li>
-                                    <li>Soutenir la relance économique par des activités durables.</li>
-                                    <li>Favoriser la transformation sociale par l’implication des hommes dans la lutte contre les inégalités de genre.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="content-section">
-                            <h3 class="section-title">IMPACTS</h3>
-                            <div class="section-content">
-                                <div class="row align-items-start">
-                                    <div class="col-lg-8">
-                                        <ol class="impacts-list-numbered">
-                                            <li class="mb-4">
-                                                <h4 class="impact-subtitle">1. Protection juridique et accompagnement des femmes victimes</h4>
-                                                <p>Des séances d’assistance juridique individuelle ont été organisées en pleine crise (violences, spoliation foncière ou discriminations structurelles). En partenariat avec le <span class="text-secondary">Centre de Promotion des Droits</span> et le <span class="text-secondary">Centre d’Écoute et de Conseil Juridique</span> (CECJ), les femmes victimes ont pu répondre aux cas les plus urgents, et être sensibilisées sur leurs droits fondamentaux.</p>
-                                            </li>
-                                            <li class="mb-4">
-                                                <h4 class="impact-subtitle">2. Renforcement de l'autonomie économique</h4>
-                                                <p>Le projet a été déployé auprès de 60 femmes cheffes de ménage, à travers des formations sur la production de charbon écologique et de savon biodégradable, deux activités génératrices de revenus à fort potentiel local. Ce volet a permis de relancer des micro-économies familiales, tout en promouvant des pratiques respectueuses de l’environnement et adaptées aux ressources disponibles.</p>
-                                            </li>
-                                            <li class="mb-4">
-                                                <h4 class="impact-subtitle">3. Promotion de la masculinité positive et lutte contre les inégalités de genre</h4>
-                                                <p>Dans une logique de transformation sociale et de prévention des violences, les hommes du territoire ont bénéficié de sessions d’animation sur la masculinité positive.</p>
-                                                <p>Ces espaces de dialogue ont permis de questionner les normes sociales discriminatoires, et de former de nouvelles figures masculines de porte-parole et d'alliés dans la lutte pour l'égalité de genre.</p>
-                                            </li>
-                                            <li class="mb-4">
-                                                <h4 class="impact-subtitle">4. Création d'une dynamique locale de solidarité féministe</h4>
-                                                <p>Une des réussites du programme est la mise en place de la <span class="text-success">plateforme communautaire "Solidarité et Résilience"</span>. Elle constitue un espace de solidarité, d’entraide et de plaidoyer, capable de porter les revendications des femmes sur le long terme.</p>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="impacts-gallery-square r5-gallery">
-                                            <div class="impact-image-square r5-image">
-                                                <img src="../assets/images/Mission1.png" alt="Femme lors d'une formation sur l'AGR" class="img-fluid">
-                                            </div>
-                                            <div class="impact-image-square r5-image">
-                                                <img src="../assets/images/Mission1.png" alt="Femmes lors d'une séance d'assistance juridique" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- REALISATION 6 : ENGAGEMENT POUR UNE POLITIQUE ÉNERGÉTIQUE-->
-                <div class="realisation-item" data-id="6">
-                    <div class="realisation-header">
-                        <h2 class="realisation-title">ENGAGEMENT POUR UNE POLITIQUE ÉNERGÉTIQUE INCLUSIVE ET SENSIBLE AU GENRE</h2>
-                        <p class="realisation-location">Atelier de revue du cadre légal et réglementaire - Partenariat PNUD - 2024</p>
-                    </div>
-
-                    <div class="realisation-content">
-                        <div class="content-section">
-                            <h3 class="section-title">CONTEXTE</h3>
-                            <div class="section-content">
-                                <p>Dans le cadre de son engagement en faveur de la justice sociale, de l’autonomisation des femmes et de la transition écologique inclusive, Green for a Healthy Madagascar a activement pris part à l’atelier de revue du cadre légal et réglementaire du secteur de l’énergie à Madagascar, organisé en partenariat avec le <strong>PNUD</strong>, le <strong>Ministère de l’Énergie</strong>, ainsi que le <strong>Ministère de la Population et de la Solidarité</strong>.</p>
-                                <p>Cette initiative stratégique s’inscrit dans le processus de formulation d’une politique énergétique sensible au genre, en cohérence avec la Politique Nationale de l’Égalité Femme-Homme actuellement en cours de finalisation.</p>
-                                <p>Cette collaboration visait à intégrer de manière structurelle l’approche genre dans les politiques publiques énergétiques, à travers trois axes complémentaires :</p>
-                                <ul class="objectives-list">
-                                    <li>Analyse croisée de la Politique Nationale d’Égalité Femme-Homme et du secteur de l’énergie, en vue d’une meilleure articulation des politiques.</li>
-                                    <li>Analyse genre du cadre législatif et réglementaire existant dans le secteur de l’énergie, afin d’en identifier les forces, les lacunes et les leviers à amélioration.</li>
-                                    <li>Élaboration de recommandations stratégiques concrètes, visant à corriger les inégalités, prévenir les discriminations et promouvoir l’accès équitable aux ressources et aux opportunités énergétiques, notamment pour les femmes et les groupes marginalisés.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="content-section">
-                            <h3 class="section-title">NOS ENGAGEMENTS</h3>
-                            <div class="section-content">
-                                <div class="row align-items-start">
-                                    <div class="col-lg-4">
-                                        <div class="realisation-image" style="padding: 0; text-align: left;">
-                                            <img src="../assets/images/Mission1.png" alt="Représentants GHM lors de l'atelier PNUD" class="img-fluid" style="width: 85%; max-height: 300px; object-fit: cover; border-radius: 8px;">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <p style="font-style: italic; font-size: 0.95rem; color: #333;">À travers sa participation, Green for a Healthy Madagascar a :</p>
-                                        <ul class="resultats-list">
-                                            <li>Apporté une expertise de terrain sur les impacts différenciés du changement climatique et de l’accès à l’énergie sur les femmes rurales ;</li>
-                                            <li>Mis en avant les enjeux spécifiques de genre dans les zones sinistrées, en particulier dans les communautés où les femmes n’ont pas accès à l’électricité ou aux ressources énergétiques durables ;</li>
-                                            <li>Promu l’intégration d’approches féministes intersectionnelles dans la conception des stratégies nationales, notamment pour garantir l’autonomie énergétique, la sécurité et la dignité des femmes.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
                 <!-- Les autres réalisations viendront ici... -->
 
             </div>
@@ -447,3 +310,578 @@
 </body>
 
 </html>
+
+//realisation.css
+/* ===== PAGE RÉALISATIONS ===== */
+
+/* Hero Section */
+.realisation-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/contenu3.jpg') center/cover no-repeat !important;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+/* Conteneur principal */
+.realisation-main {
+    background-color: #f8f9fa;
+    min-height: 70vh;
+}
+
+/* Conteneur des réalisations */
+.realisation-container {
+    position: relative;
+    min-height: 600px;
+}
+
+.realisation-item {
+    display: none;
+    animation: slideIn 0.5s ease;
+}
+
+.realisation-item.active {
+    display: block;
+}
+
+@keyframes slideIn {
+    from { 
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* En-tête de réalisation */
+.realisation-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #2dc751;
+}
+
+.realisation-title {
+    color: #2dc751;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.realisation-location {
+    color: #666;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+/* Contenu de la réalisation */
+.realisation-content {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+    margin-bottom: 35px;
+}
+
+.content-section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    color: #83b821;
+    font-weight: bold;
+    border-left: 5px solid #2dc751;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.section-content {
+    line-height: 1.7;
+    color: #333;
+}
+
+.section-content p {
+    margin-bottom: 12px;
+}
+
+.section-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Images intégrées - CORRECTION DES ESPACES VIDES */
+.realisation-image {
+    padding: 10px;
+    text-align: center;
+}
+
+.realisation-image img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+/* Ajustement de l'alignement des rangées */
+.section-content .row.align-items-start {
+    align-items: flex-start;
+}
+
+.section-content .col-lg-8 {
+    padding-right: 25px;
+}
+
+.section-content .col-lg-4 {
+    padding-left: 15px;
+}
+
+/* Liste des objectifs */
+.objectives-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.objectives-list li {
+    padding: 8px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 0;
+}
+
+.objectives-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #2dc751;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.objectives-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Grille des résultats */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.result-item {
+    text-align: center;
+    padding: 20px 15px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 8px;
+    border-left: 4px solid #2dc751;
+}
+
+.result-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2dc751;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.result-label {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.result-text {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    padding: 5px;
+}
+
+/* Navigation */
+.realisation-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.nav-btn {
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    min-width: 140px;
+}
+
+.nav-btn:not(:disabled):hover {
+    background-color: #2dc751;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(45, 199, 81, 0.3);
+}
+
+.nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.navigation-counter {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
+    background: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current {
+    color: #2dc751;
+}
+
+.total {
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .realisation-hero {
+        min-height: 300px;
+    }
+    
+    .realisation-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .realisation-title {
+        font-size: 1.8rem;
+    }
+    
+    .realisation-content {
+        padding: 25px 20px;
+    }
+    
+    .realisation-navigation {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .results-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .section-content .col-lg-8 {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .section-content .col-lg-4 {
+        padding-left: 15px;
+    }
+    
+    .realisation-image img {
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .realisation-title {
+        font-size: 1.5rem;
+    }
+    
+    .realisation-location {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .realisation-content {
+        padding: 20px 15px;
+    }
+    
+    .result-number {
+        font-size: 1.8rem;
+    }
+    
+    .realisation-image img {
+        max-height: 120px;
+    }
+    
+    .objectives-list li {
+        padding-left: 25px;
+        font-size: 0.95rem;
+    }
+}
+/* ===== STYLES SPÉCIFIQUES POUR LA RÉALISATION 3 ===== */
+
+/* Galerie d'impacts carrée */
+.impacts-gallery-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    height: 100%;
+}
+
+.impact-image-square {
+    aspect-ratio: 1 / 1; /* Rend l'image carrée */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.impact-image-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.impact-image-square img:hover {
+    transform: scale(1.05);
+}
+
+/* Ajustement de l'espacement */
+.impacts-content .row.align-items-start {
+    align-items: flex-start;
+}
+
+/* Responsive pour la réalisation 3 */
+@media (max-width: 768px) {
+    .impacts-gallery-square {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 20px;
+    }
+    
+    .impact-image-square {
+        aspect-ratio: 16 / 9; /* Rectangulaire sur mobile pour mieux utiliser l'espace */
+    }
+}
+
+@media (max-width: 576px) {
+    .impacts-gallery-square {
+        gap: 10px;
+    }
+}
+/* ===== STYLES SPÉCIFIQUES POUR LA RÉALISATION 4 ===== */
+
+/* CONTEXTE - Détails de la carte*/
+.content-section .row {
+    align-items: flex-start !important; 
+}
+
+.section-content .col-lg-4 {
+    height: auto !important; 
+    display: block;
+    flex-grow: 0; 
+}
+
+.context-details {
+    background-color: #ffe07f; 
+    border-radius: 8px; 
+    padding: 20px; 
+    border: 3px solid #ffc107; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
+    height: auto;
+    margin-bottom: 25px;
+    width: 100%; 
+}
+
+.detail-item {
+    margin-bottom: 12px; 
+    padding-bottom: 0;
+    border-bottom: none; 
+    line-height: 1.4;
+}
+
+.detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.detail-item strong {
+    display: inline; 
+    color: #495057;
+    font-size: 0.95rem; 
+    margin-bottom: 0; 
+    font-weight: 700; 
+}
+
+.detail-item span {
+    color: #495057; 
+    font-size: 0.95rem; 
+    line-height: 1.4;
+}
+
+.content-section {
+    margin-bottom: 20px; 
+}
+
+.section-content p {
+    margin-bottom: 16px; 
+}
+
+.section-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- IMAGE D'INTERVENTION --- */
+.intervention-image {
+    padding: 0;
+    height: fit-content;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.intervention-image img {
+    width: 75% !important; 
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+/* --- RESPONSIVE DESIGN --- */
+
+@media (max-width: 992px) {
+    .context-details {
+        padding: 20px;
+        margin-top: 25px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .context-details {
+        padding: 18px;
+    }
+    
+    .detail-item strong, .detail-item span {
+        font-size: 0.9rem;
+    }
+    
+    .intervention-image img {
+        margin-top: 15px; 
+    }
+}
+/* --- SUITE DE L'INTERVENTION --- */
+
+
+.intervention-suite {
+    margin-top: 25px; 
+    margin-bottom: 40px; 
+}
+
+
+/* --- STYLES POUR LA SECTION RÉSULTATS --- */
+
+.resultats-list-container {
+    background-color: #ffffff; 
+    color: #fff;
+    border-radius: 8px;
+    padding: 30px 25px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    height: auto; 
+    width: 100%;
+}
+
+.resultats-header {
+    display: none; 
+}
+
+/* Titre RÉSULTATS principal */
+.resultats-section .section-title {  
+    color:#83b821 ; 
+}
+
+
+.resultats-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resultats-list li {
+    margin-bottom: 18px; 
+    padding-left: 1.5em; 
+    position: relative;
+    line-height: 1.4;
+    font-size: 0.95rem;
+}
+
+.resultats-list li::before {
+    content: "•"; 
+    color: #3337;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em; 
+}
+.resultats-list li {
+    color: #333;
+}
+
+.resultats-list li strong {
+    color: #3337;
+    font-weight: 700;
+}
+
+.resultats-image {
+    padding: 0;
+    height: fit-content;
+}
+
+.resultats-image img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* --- RESPONSIVE DESIGN pour les RÉSULTATS --- */
+
+@media (max-width: 992px) {
+    .resultats-list-container {
+        padding: 25px 20px;
+        margin-top: 25px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .resultats-list-container {
+        padding: 20px 15px;
+    }
+    
+    .resultats-list li {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+}

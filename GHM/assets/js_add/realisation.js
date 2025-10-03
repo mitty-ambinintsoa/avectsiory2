@@ -3,67 +3,47 @@ document.addEventListener('DOMContentLoaded', function() {
     const items = document.querySelectorAll('.realisation-item');
     const prevBtn = document.querySelector('.nav-prev');
     const nextBtn = document.querySelector('.nav-next');
-    const progressBar = document.querySelector('.progress-bar');
-    const currentText = document.querySelector('.current-realisation');
-    const totalText = document.querySelector('.total-realisations');
+    const currentSpan = document.querySelector('.navigation-counter .current');
+    const totalSpan = document.querySelector('.navigation-counter .total');
     
     let currentIndex = 0;
     const totalItems = items.length;
     
     // Initialisation
-    totalText.textContent = totalItems;
+    totalSpan.textContent = totalItems;
     updateNavigation();
     
     // Navigation suivante
     nextBtn.addEventListener('click', function() {
         if (currentIndex < totalItems - 1) {
-            items[currentIndex].classList.remove('active');
-            currentIndex++;
-            items[currentIndex].classList.add('active');
-            updateNavigation();
+            switchRealisation(currentIndex + 1);
         }
     });
     
     // Navigation précédente
     prevBtn.addEventListener('click', function() {
         if (currentIndex > 0) {
-            items[currentIndex].classList.remove('active');
-            currentIndex--;
-            items[currentIndex].classList.add('active');
-            updateNavigation();
+            switchRealisation(currentIndex - 1);
         }
     });
     
-    // Mise à jour de la navigation et progression
-    function updateNavigation() {
-        // Barre de progression
-        const progress = ((currentIndex + 1) / totalItems) * 100;
-        progressBar.style.width = progress + '%';
+    // Changement de réalisation
+    function switchRealisation(newIndex) {
+        // Masquer la réalisation actuelle
+        items[currentIndex].classList.remove('active');
         
-        // Texte actuel
-        currentText.textContent = currentIndex + 1;
+        // Afficher la nouvelle réalisation
+        currentIndex = newIndex;
+        items[currentIndex].classList.add('active');
         
-        // Boutons de navigation
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex === totalItems - 1;
-        
-        // Animation
-        items.forEach(item => {
-            if (item.classList.contains('active')) {
-                item.style.animation = 'fadeIn 0.5s ease';
-            }
-        });
+        updateNavigation();
     }
     
-    // Modal pour les images
-    const imageModal = document.getElementById('imageModal');
-    if (imageModal) {
-        imageModal.addEventListener('show.bs.modal', function(event) {
-            const button = event.relatedTarget;
-            const imageSrc = button.getAttribute('data-image');
-            const modalImage = imageModal.querySelector('.modal-image');
-            modalImage.src = imageSrc;
-        });
+    // Mise à jour de la navigation
+    function updateNavigation() {
+        currentSpan.textContent = currentIndex + 1;
+        prevBtn.disabled = currentIndex === 0;
+        nextBtn.disabled = currentIndex === totalItems - 1;
     }
     
     // Navigation au clavier

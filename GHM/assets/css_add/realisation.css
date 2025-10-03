@@ -14,136 +14,214 @@
     min-height: 70vh;
 }
 
-/* Barre de progression */
-.realisation-progress {
-    max-width: 600px;
-    margin: 0 auto 40px;
-}
-
-.progress-bar {
-    background-color: #2dc751;
-    transition: width 0.5s ease;
-}
-
-.progress-text {
-    font-weight: bold;
-    color: #333;
-    font-size: 1.1rem;
-}
-
 /* Conteneur des réalisations */
 .realisation-container {
     position: relative;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .realisation-item {
     display: none;
-    animation: fadeIn 0.5s ease;
+    animation: slideIn 0.5s ease;
 }
 
 .realisation-item.active {
     display: block;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateX(20px); }
-    to { opacity: 1; transform: translateX(0); }
+@keyframes slideIn {
+    from { 
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-/* Contenu */
-.realisation-content {
-    padding: 30px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+/* En-tête de réalisation */
+.realisation-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #2dc751;
 }
 
 .realisation-title {
-    color: #2dc751;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 2rem;
-}
-
-.realisation-subtitle {
-    color: #666;
-    font-style: italic;
-    margin-bottom: 30px;
-    font-size: 1.2rem;
-}
-
-.realisation-section {
-    margin-bottom: 30px;
-}
-
-.realisation-section h5 {
     color: #83b821;
-    border-bottom: 2px solid #83b821;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
     font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-.realisation-section p, .realisation-section li {
+.realisation-location {
+    color: #666;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+/* Contenu de la réalisation */
+.realisation-content {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+    margin-bottom: 35px;
+}
+
+.content-section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    color: #83b821;
+    font-weight: bold;
+    border-left: 5px solid #2dc751;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.section-content {
     line-height: 1.7;
     color: #333;
 }
 
-.realisation-section ul {
-    padding-left: 20px;
+.section-content p {
+    margin-bottom: 12px;
 }
 
-.realisation-section li {
-    margin-bottom: 8px;
+.section-content p:last-child {
+    margin-bottom: 0;
 }
 
-/* Galerie d'images */
-.realisation-gallery {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
+/* Images intégrées - CORRECTION DES ESPACES VIDES */
+.realisation-image {
+    padding: 10px;
+    text-align: center;
 }
 
-.gallery-item {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.gallery-item:hover {
-    transform: scale(1.05);
-}
-
-.gallery-img {
+.realisation-image img {
+    max-height: 200px;
     width: 100%;
-    height: 150px;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+/* Ajustement de l'alignement des rangées */
+.section-content .row.align-items-start {
+    align-items: flex-start;
+}
+
+.section-content .col-lg-8 {
+    padding-right: 25px;
+}
+
+.section-content .col-lg-4 {
+    padding-left: 15px;
+}
+
+/* Liste des objectifs */
+.objectives-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.objectives-list li {
+    padding: 8px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 0;
+}
+
+.objectives-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #2dc751;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.objectives-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Grille des résultats */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.result-item {
+    text-align: center;
+    padding: 20px 15px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 8px;
+    border-left: 4px solid #2dc751;
+}
+
+.result-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2dc751;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.result-label {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.result-text {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    padding: 5px;
 }
 
 /* Navigation */
 .realisation-navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 40px;
     padding: 0 20px;
 }
 
 .nav-btn {
-    padding: 12px 30px;
+    padding: 10px 30px;
     font-weight: bold;
     border-radius: 25px;
     transition: all 0.3s ease;
+    min-width: 140px;
 }
 
 .nav-btn:not(:disabled):hover {
     background-color: #2dc751;
     color: white;
     transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(45, 199, 81, 0.3);
 }
 
 .nav-btn:disabled {
@@ -151,10 +229,22 @@
     cursor: not-allowed;
 }
 
-/* Modal */
-.modal-image {
-    max-height: 70vh;
-    object-fit: contain;
+.navigation-counter {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
+    background: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current {
+    color: #2dc751;
+}
+
+.total {
+    color: #666;
 }
 
 /* Responsive */
@@ -164,24 +254,15 @@
     }
     
     .realisation-hero h1 {
-        font-size: 2.5rem;
-    }
-    
-    .realisation-content {
-        padding: 20px;
-        margin-bottom: 30px;
+        font-size: 2.2rem;
     }
     
     .realisation-title {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     
-    .realisation-gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .gallery-img {
-        height: 120px;
+    .realisation-content {
+        padding: 25px 20px;
     }
     
     .realisation-navigation {
@@ -191,23 +272,388 @@
     
     .nav-btn {
         width: 100%;
+        max-width: 250px;
+    }
+    
+    .results-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .section-content .col-lg-8 {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .section-content .col-lg-4 {
+        padding-left: 15px;
+    }
+    
+    .realisation-image img {
+        max-height: 150px;
     }
 }
 
 @media (max-width: 576px) {
-    .realisation-gallery {
-        grid-template-columns: 1fr;
-    }
-    
-    .gallery-img {
-        height: 200px;
-    }
-    
     .realisation-title {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     
-    .realisation-subtitle {
+    .realisation-location {
         font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .realisation-content {
+        padding: 20px 15px;
+    }
+    
+    .result-number {
+        font-size: 1.8rem;
+    }
+    
+    .realisation-image img {
+        max-height: 120px;
+    }
+    
+    .objectives-list li {
+        padding-left: 25px;
+        font-size: 0.95rem;
+    }
+}
+/* ===== STYLES SPÉCIFIQUES POUR LA RÉALISATION 3 ===== */
+
+/* Galerie d'impacts carrée */
+.impacts-gallery-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    height: 100%;
+}
+
+.impact-image-square {
+    aspect-ratio: 1 / 1; /* Rend l'image carrée */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.impact-image-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.impact-image-square img:hover {
+    transform: scale(1.05);
+}
+
+/* Ajustement de l'espacement */
+.impacts-content .row.align-items-start {
+    align-items: flex-start;
+}
+
+/* Responsive pour la réalisation 3 */
+@media (max-width: 768px) {
+    .impacts-gallery-square {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 20px;
+    }
+    
+    .impact-image-square {
+        aspect-ratio: 16 / 9; /* Rectangulaire sur mobile pour mieux utiliser l'espace */
+    }
+}
+
+@media (max-width: 576px) {
+    .impacts-gallery-square {
+        gap: 10px;
+    }
+}
+/* ===== STYLES SPÉCIFIQUES POUR LA RÉALISATION 4 ===== */
+
+/* CONTEXTE - Détails de la carte*/
+.content-section .row {
+    align-items: flex-start !important; 
+}
+
+.section-content .col-lg-4 {
+    height: auto !important; 
+    display: block;
+    flex-grow: 0; 
+}
+
+.context-details {
+    background-color: #ffe07f; 
+    border-radius: 8px; 
+    padding: 20px; 
+    border: 3px solid #ffc107; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
+    height: auto;
+    margin-bottom: 25px;
+    width: 100%; 
+}
+
+.detail-item {
+    margin-bottom: 12px; 
+    padding-bottom: 0;
+    border-bottom: none; 
+    line-height: 1.4;
+}
+
+.detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.detail-item strong {
+    display: inline; 
+    color: #495057;
+    font-size: 0.95rem; 
+    margin-bottom: 0; 
+    font-weight: 700; 
+}
+
+.detail-item span {
+    color: #495057; 
+    font-size: 0.95rem; 
+    line-height: 1.4;
+}
+
+.content-section {
+    margin-bottom: 20px; 
+}
+
+.section-content p {
+    margin-bottom: 16px; 
+}
+
+.section-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- IMAGE D'INTERVENTION --- */
+.intervention-image {
+    padding: 0;
+    height: fit-content;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.intervention-image img {
+    width: 75% !important; 
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+/* --- RESPONSIVE DESIGN --- */
+
+@media (max-width: 992px) {
+    .context-details {
+        padding: 20px;
+        margin-top: 25px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .context-details {
+        padding: 18px;
+    }
+    
+    .detail-item strong, .detail-item span {
+        font-size: 0.9rem;
+    }
+    
+    .intervention-image img {
+        margin-top: 15px; 
+    }
+}
+/* --- SUITE DE L'INTERVENTION --- */
+
+
+.intervention-suite {
+    margin-top: 25px; 
+    margin-bottom: 40px; 
+}
+
+
+/* --- STYLES POUR LA SECTION RÉSULTATS --- */
+
+.resultats-list-container {
+    background-color: #ffffff; 
+    color: #fff;
+    border-radius: 8px;
+    padding: 30px 25px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    height: auto; 
+    width: 100%;
+}
+
+.resultats-header {
+    display: none; 
+}
+
+/* Titre RÉSULTATS principal */
+.resultats-section .section-title {  
+    color:#83b821 ; 
+}
+
+
+.resultats-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resultats-list li {
+    margin-bottom: 18px; 
+    padding-left: 1.5em; 
+    position: relative;
+    line-height: 1.4;
+    font-size: 0.95rem;
+}
+
+.resultats-list li::before {
+    content: "•"; 
+    color: #3337;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em; 
+}
+.resultats-list li {
+    color: #333;
+}
+
+.resultats-list li strong {
+    color: #3337;
+    font-weight: 700;
+}
+
+.resultats-image {
+    padding: 0;
+    height: fit-content;
+}
+
+.resultats-image img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* --- RESPONSIVE DESIGN pour les RÉSULTATS --- */
+
+@media (max-width: 992px) {
+    .resultats-list-container {
+        padding: 25px 20px;
+        margin-top: 25px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .resultats-list-container {
+        padding: 20px 15px;
+    }
+    
+    .resultats-list li {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+}
+
+/* REALISATION 5 - ELAN FEMININ */
+
+/* Ajout d'espacement */
+.realisation-item[data-id="5"] .content-section:nth-of-type(2) { /* Cible la 2e section (OBJECTIFS) */
+    margin-bottom: 50px; 
+}
+/* Liste numérotée des impacts */
+.impacts-list-numbered {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: impact-counter; /* Initialise un compteur */
+}
+
+.impacts-list-numbered li {
+    position: relative;
+    padding-left: 0; 
+    margin-bottom: 25px !important; /* Ajout d'un peu d'espace entre les points */
+}
+
+/* Titre des sous-sections d'impacts */
+.impact-subtitle {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #2dc751; /* Utilisation de la couleur principale verte */
+    margin-bottom: 8px;
+    padding-bottom: 0;
+    display: inline-block; /* Pour l'alignement */
+}
+
+.impacts-list-numbered li p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* Assurer le bon affichage des images dans le col-lg-4 */
+.content-section .row.align-items-start .col-lg-4 {
+    /* Maintient les styles d'images carrées de la Réalisation 3 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* Images */
+/* Galerie d'impacts carrée*/
+.r5-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    height: 100%;
+    align-items: center; 
+}
+
+.r5-image {
+    width: 100%; 
+    aspect-ratio: 16 / 12; 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.r5-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .impacts-gallery-square {
+        gap: 12px;
+        margin-top: 20px;
+    }
+    
+    .impact-image-square {
+         aspect-ratio: 16 / 9; 
+    }
+}
+
+/* Responsive pour la liste numérotée sur mobile */
+@media (max-width: 768px) {
+    .impact-subtitle {
+        font-size: 1.05rem;
     }
 }
