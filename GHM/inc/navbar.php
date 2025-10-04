@@ -33,7 +33,7 @@
                             <li><a class="dropdown-item" href="../pages/histoire.php">Notre histoire</a></li>
                             <li><a class="dropdown-item" href="../pages/mission.php">Nos missions</a></li>
                             <li><a class="dropdown-item" href="../pages/realisation.php">Nos réalisations</a></li>
-                            <li><a class="dropdown-item" href="../pages/equipe.php">Notre équipe</a></li>
+                            <li><a class="dropdown-item" href="../pages/partenaire.php">Nos partenaires</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
