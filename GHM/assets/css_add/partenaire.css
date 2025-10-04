@@ -1,0 +1,134 @@
+/* ===== PAGE PARTENAIRES ===== */
+
+/* Hero Section */
+.partenaire-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/contenu3.jpg') center/cover no-repeat !important;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.partenaire-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.partenaire-hero p {
+    font-size: 1.5rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Conteneur principal */
+.partenaire-main {
+    background-color: #f8f9fa;
+    min-height: 70vh;
+}
+
+/* Titre principal de la section */
+.partenaire-main .section-title {
+    color:#83b821 ;
+    font-weight: bold;
+    font-size: 2.2rem;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 50px !important;
+}
+
+/* Carte de Partenaire (Conteneur Unique) */
+.partenaire-card {
+    background: white;
+    border-radius: 12px;
+    padding: 40px; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.partenaire-card:hover {
+    box-shadow: 0 10px 25px rgba(45, 199, 81, 0.15);
+}
+
+/* Style de chaque catégorie à l'intérieur de la carte unique */
+.partenaire-section {
+    margin-bottom: 30px; /* Espace entre les différentes catégories */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee; /* Ligne de séparation douce entre les catégories */
+}
+
+.partenaire-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card-title {
+    color: #2dc751;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px; /* Réduction de la marge pour coller aux listes */
+}
+
+
+/* Liste des Partenaires */
+.partenaire-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.partenaire-list li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #333;
+    font-size: 1rem;
+}
+
+.partenaire-list li:last-child {
+    border-bottom: none;
+}
+
+.partenaire-list li::before {
+    content: '\f0da'; 
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #83b821;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .partenaire-hero {
+        min-height: 300px;
+    }
+    .partenaire-hero h1 {
+        font-size: 2.8rem;
+    }
+    .partenaire-card {
+        padding: 30px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .partenaire-hero {
+        min-height: 250px;
+    }
+    .partenaire-hero h1 {
+        font-size: 2rem;
+    }
+    .partenaire-main .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px !important;
+    }
+    .partenaire-card {
+        padding: 25px 15px;
+    }
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
