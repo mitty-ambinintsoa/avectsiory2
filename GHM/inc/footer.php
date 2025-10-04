@@ -21,10 +21,10 @@
                     <h5 class="mb-3">Navigation</h5>
                     <ul class="list-unstyled">
                         <li><a href="../pages/index.php" class="text-decoration-none text-dark">Accueil</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Notre mission</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Actions</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Nos services</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Contact</a></li>
+                        <li><a href="../pages/mission.php" class="text-decoration-none text-dark">Notre mission</a></li>
+                        <li><a href="../pages/realisation.php" class="text-decoration-none text-dark">Actions</a></li>
+                        <li><a href="../pages/actu.php" class="text-decoration-none text-dark">Nos services</a></li>
+                        <li><a href="../pages/contact.php" class="text-decoration-none text-dark">Contact</a></li>
                     </ul>
                 </div>
 
