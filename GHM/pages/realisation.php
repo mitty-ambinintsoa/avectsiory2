@@ -156,7 +156,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="realisation-image">
-                                            <img src="../assets/images/Mission1.png" alt="Expansion du programme d'apprentissage vert" class="img-fluid">
+                                            <img src="../assets/images/23.png" alt="Expansion du programme d'apprentissage vert" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -178,7 +178,7 @@
                                     <div class="col-lg-6">
                                         <div class="impacts-gallery-square">
                                             <div class="impact-image-square">
-                                                <img src="../assets/images/Mission1.png" alt="Sensibilisation des élèves" class="img-fluid">
+                                                <img src="../assets/images/24.png" alt="Sensibilisation des élèves" class="img-fluid">
                                             </div>
                                             <div class="impact-image-square">
                                                 <img src="../assets/images/Mission1.png" alt="Plantation d'arbres" class="img-fluid">
@@ -242,7 +242,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="intervention-image">
-                                            <img src="../assets/images/Mission1.png" alt="Aide humanitaire aux femmes sinistrées" class="img-fluid">
+                                            <img src="../assets/images/3.png" alt="Aide humanitaire aux femmes sinistrées" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +259,7 @@
 
                                     <div class="col-lg-4">
                                         <div class="resultats-image">
-                                            <img src="../assets/images/Mission1.png" alt="Femmes lors d'une formation" class="img-fluid">
+                                            <img src="../assets/images/7.png" alt="Femmes lors d'une formation" class="img-fluid">
                                         </div>
                                     </div>
 
