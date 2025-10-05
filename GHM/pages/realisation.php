@@ -66,8 +66,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="realisation-image">
-                                            <img src="../assets/images/Mission1.png" alt="Résultat de l'installation des poubelles de tri" class="img-fluid">
-                                            <p class="image-caption">Amélioration de la propreté du quartier</p>
+                                            <img src="../assets/images/ghm4.jpg" alt="Résultat de l'installation des poubelles de tri" style="max-height:250px;" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -108,7 +107,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="realisation-image">
-                                            <img src="../assets/images/Mission1.png" alt="Atelier d'éducation environnementale" class="img-fluid">
+                                            <img src="../assets/images/realisation2.jpg" style="max-height:250px" alt="Atelier d'éducation environnementale" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -181,7 +180,7 @@
                                                 <img src="../assets/images/24.png" alt="Sensibilisation des élèves" class="img-fluid">
                                             </div>
                                             <div class="impact-image-square">
-                                                <img src="../assets/images/Mission1.png" alt="Plantation d'arbres" class="img-fluid">
+                                                <img src="../assets/images/realisation3.png" alt="Plantation d'arbres" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -363,10 +362,10 @@
                                     <div class="col-lg-4">
                                         <div class="impacts-gallery-square r5-gallery">
                                             <div class="impact-image-square r5-image">
-                                                <img src="../assets/images/Mission1.png" alt="Femme lors d'une formation sur l'AGR" class="img-fluid">
+                                                <img src="../assets/images/elan1.png" alt="Femme lors d'une formation sur l'AGR" class="img-fluid">
                                             </div>
                                             <div class="impact-image-square r5-image">
-                                                <img src="../assets/images/Mission1.png" alt="Femmes lors d'une séance d'assistance juridique" class="img-fluid">
+                                                <img src="../assets/images/elan2.png" alt="Femmes lors d'une séance d'assistance juridique" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -403,7 +402,7 @@
                                 <div class="row align-items-start">
                                     <div class="col-lg-4">
                                         <div class="realisation-image" style="padding: 0; text-align: left;">
-                                            <img src="../assets/images/Mission1.png" alt="Représentants GHM lors de l'atelier PNUD" class="img-fluid" style="width: 85%; max-height: 300px; object-fit: cover; border-radius: 8px;">
+                                            <img src="../assets/images/engagement.png" alt="Représentants GHM lors de l'atelier PNUD" class="img-fluid" style="width: 90%; max-height: 500px; object-fit: cover; border-radius: 8px;">
                                         </div>
                                     </div>
 
