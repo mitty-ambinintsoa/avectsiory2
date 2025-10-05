@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="../assets/images/histoire-2024.jpg" class="img-fluid rounded shadow" alt="Reconnaissance nationale de GHM en 2024 - Jeunes en formation">
+                    <img src="../assets/images/ghm1.jpg" class="img-fluid rounded shadow image3" alt="Reconnaissance nationale de GHM en 2024 - Jeunes en formation">
                 </div>
             </div>
         </div>
