@@ -72,7 +72,7 @@
                     <div class="mission-image-container">
                         <div class="mission-bubble mission-bubble-2 mission-bubble-left">
                             <div class="mission-bubble-bg">
-                                <img src="../assets/images/Mission1.png" alt="Droits humains" class="mission-bubble-img">
+                                <img src="../assets/images/ghm2.jpg" alt="Droits humains" class="mission-bubble-img">
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     <div class="mission-image-container">
                         <div class="mission-bubble mission-bubble-3 mission-bubble-right">
                             <div class="mission-bubble-bg">
-                                <img src="../assets/images/Mission1.png" alt="Action sociale et humanitaire" class="mission-bubble-img">
+                                <img src="../assets/images/ghm3.jpg" alt="Action sociale et humanitaire" class="mission-bubble-img">
                             </div>
                         </div>
                     </div>
