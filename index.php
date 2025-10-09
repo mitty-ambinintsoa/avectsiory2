@@ -1,4 +1,4 @@
-<?php 
+<?php
 header("location:./pages/index.php");
 
 //git init
@@ -12,6 +12,6 @@ header("location:./pages/index.php");
 //git push -u origin main     
 //salut nouveau commit
 
-//rehefa anao commit vaovao dia git commit -m "...."
+//rehefa anao commit vaovao dia git add .
+// git commit -m "..."
 // git push -u origin main
-// a
