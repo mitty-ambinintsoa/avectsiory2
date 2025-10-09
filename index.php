@@ -11,3 +11,7 @@ header("location:./pages/index.php");
 //git branch -M main
 //git push -u origin main     
 //salut nouveau commit
+
+//rehefa anao commit vaovao dia git commit -m "...."
+// git push -u origin main
+// a
