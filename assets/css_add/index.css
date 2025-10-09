@@ -1,0 +1,249 @@
+/* ===== NAVBAR ===== */
+.logo_soratra {
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .btn:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: #2dc751;
+}
+
+/* ===== CONTENU 3 ===== */
+.contenu3 {
+    background-image: url(../images/contenu3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#btn-contenu3 {
+    color: white;
+    background-color: #2dc751;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+#btn-contenu3:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* ===== CONTENU 5 ===== */
+#texte-contenu5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.expertise-title {
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* ===== SOCIAL CARDS ===== */
+#social,
+#social1,
+#social2 {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#social:hover,
+#social1:hover,
+#social2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#social {
+    background-image: url(../images/mains.jpg);
+}
+
+#social1 {
+    background-image: url(../images/droits.jpg);
+}
+
+#social2 {
+    background-image: url(../images/environement.jpg);
+}
+
+/* ===== CONTENU 6 ===== */
+.contenu6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/plage1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.valeur img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.valeur strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #f7c600;
+    margin: auto;
+    position: relative;
+    top: -30px;
+    transition: 0.3s;
+}
+
+.valeur strong:hover {
+    background: #6a9e3f;
+    color: white;
+}
+
+/* ===== CONTENU 7 ===== */
+.contenu7 {
+    background: linear-gradient(to right, green 0%, yellow 80%);
+    color: white;
+}
+
+/* ===== CONTENU 8 ===== */
+.contenu8 {
+    background-image: url("../images/arriere.png");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.contenu8 h1 {
+    color: #83b821;
+    font-weight: bold;
+}
+
+#chiffre {
+    width: 200px;
+    height: 100px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #83b821, #a4d53c);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#chiffre:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+#txt {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #txt {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
+.row.align-items-center {
+    margin-bottom: 30px;
+}
+
+#txt {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #chiffre {
+        font-size: 2rem;
+        min-width: 80px;
+        min-height: 80px;
+    }
+
+    #txt {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .contenu3,
+    .contenu5 {
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    #social,
+    #social1,
+    #social2 {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .valeur img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .valeur strong {
+        width: 80px;
+        height: 80px;
+        font-size: 0.9rem;
+        top: -20px;
+    }
+
+    #txt {
+        font-size: 1rem;
+    }
+}
