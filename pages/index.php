@@ -21,20 +21,20 @@
             <button type="button" data-bs-target="#contenu1Carousel" data-bs-slide-to="0" class="active"
                 aria-current="true"></button>
             <button type="button" data-bs-target="#contenu1Carousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#contenu1Carousel" data-bs-slide-to="2"></button>
+            <!-- <button type="button" data-bs-target="#contenu1Carousel" data-bs-slide-to="2"></button> -->
         </div>
 
         <div class="carousel-inner">
-            <div class="carousel-item active"
+            <!-- <div class="carousel-item active"
                 style="height: 650px; background: url('../assets/images/content1.jpg') center/cover no-repeat;">
                 <div class="container h-100 d-flex align-items-center justify-content-center">
                     <div class="text-white text-center bg-dark bg-opacity-50 p-4 rounded">
                         <h3><strong><i>Homme et Nature, un seul écosystème</i></strong></h3>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item"
-                style="height: 650px; background: url('../assets/images/image3.jpeg') center/cover no-repeat;">
+            </div> -->
+            <div class="carousel-item active"
+                style="height: 650px; background: url('../assets/images/image1.jpg') center/cover no-repeat;">
                 <div class="container h-100 d-flex align-items-center justify-content-center">
                     <div class="text-white text-center bg-dark bg-opacity-50 p-4 rounded">
                         <h3><strong><i>Pour un Madagascar sain, résilient, équitable et juste</i></strong></h3>
@@ -65,57 +65,71 @@
     </section>
 
     <!-- ACTUALITÉS -->
-    <section class="contenu2 py-5">
+    <section class="contenu8 py-5">
         <div class="container">
+            <h1 class="text-center mb-5"><strong>CHIFFRES CLÉS</strong></h1>
+
             <div class="row align-items-center mb-4">
-                <div class="col-md-6">
-                    <h2><u>Nos actualités</u></h2>
+                <div class="col-12 col-md-2 text-center">
+                    <div id="chiffre"><strong>4</strong></div>
                 </div>
-                <div class="col-md-6 text-md-end text-center mt-3 mt-md-0">
-                    <button class="btn btn-outline-success"><a href="actu.php" style="text-decoration: none;color:green">Toutes les actualités ici 🌳</a></button>
+                <div class="col-12 col-md-10 text-center text-md-start">
+                    <div id="txt"><strong>Régions d’intervention</strong></div>
                 </div>
             </div>
 
-            <div class="row g-4">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="border p-2 h-100">
-                        <img src="../assets/images/antsaravibe.jpg" class="img-fluid mb-2 w-100"
-                            style="height: 200px; object-fit: cover;">
-                        <h4><i>Projet viavin'Ambila miabo</i></h4>
-                        <p>1 août 2025</p>
-                        <p>Descente à antsaravibe lor</p>
-                    </div>
+            <div class="row align-items-center mb-4">
+                <div class="col-12 col-md-2 text-center">
+                    <div id="chiffre"><strong>3</strong></div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="border p-2 h-100">
-                        <img src="../assets/images/journee.jpg" class="img-fluid mb-2 w-100"
-                            style="height: 200px; object-fit: cover;">
-                        <h4><i>Journée de la femme</i></h4>
-                        <p>19 mai 2024</p>
-                        <p>journée importante pour les femmes</p>
-                    </div>
+                <div class="col-12 col-md-10 text-center text-md-start">
+                    <div id="txt"><strong>Thématiques/expertises</strong></div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="border p-2 h-100">
-                        <img src="../assets/images/recrute.jpg" class="img-fluid mb-2 w-100"
-                            style="height: 200px; object-fit: cover;">
-                        <h4><i>Recrutement</i></h4>
-                        <p>1 août 2025</p>
-                        <p>On recherche des nouveau jeunes</p>
-                    </div>
+            </div>
+
+            <div class="row align-items-center mb-4">
+                <div class="col-12 col-md-2 text-center">
+                    <div id="chiffre"><strong>15</strong></div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="border p-2 h-100">
-                        <img src="../assets/images/viavy.jpg" class="img-fluid mb-2 w-100"
-                            style="height: 200px; object-fit: cover;">
-                        <h4><i>Projet viavin'Ambila miabo</i></h4>
-                        <p>1 août 2025</p>
-                        <p>Début du projet</p>
-                    </div>
+                <div class="col-12 col-md-10 text-center text-md-start">
+                    <div id="txt"><strong>Partenaires</strong></div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-12 col-md-2 text-center">
+                    <div id="chiffre"><strong>10 000</strong></div>
+                </div>
+                <div class="col-12 col-md-10 text-center text-md-start">
+                    <div id="txt"><strong>Bénéficiaires directs</strong></div>
                 </div>
             </div>
         </div>
     </section>
+
+    <style>
+    </style>
+
+    <script src="../assets/js_add/index.js">
+    </script>
+
+    <section class="contenu4 py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <h1>Rejoignez un groupe local !</h1>
+                    <p>En rejoignant GHM, tu deviens acteur d’un changement concret. Tu participes à des actions
+                        terrain, défends les droits humains et renforces la résilience des communautés vulnérables.
+                    </p>
+                    <button class="btn btn-outline-success" id="btn-contenu3"><a href="contact.php" style="text-decoration: none;color:white">En savoir plus 🌳</a></button>
+                </div>
+                <div class="col-md-6">
+                    <img src="../assets/images/contenu2.jpg" class="img-fluid rounded shadow" alt="Rejoignez-nous">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- CONTENU 3 -->
     <section class="contenu3 d-flex align-items-center">
@@ -135,29 +149,14 @@
     </section>
 
     <!-- CONTENU 4 -->
-    <section class="contenu4 py-5">
-        <div class="container">
-            <div class="row align-items-center g-4">
-                <div class="col-md-6">
-                    <h1>Rejoignez un groupe local !</h1>
-                    <p>En rejoignant GHM, tu deviens acteur d’un changement concret. Tu participes à des actions
-                        terrain, défends les droits humains et renforces la résilience des communautés vulnérables.
-                    </p>
-                    <button class="btn btn-outline-success" id="btn-contenu3"><a href="contact.php" style="text-decoration: none;color:white">En savoir plus 🌳</a></button>
-                </div>
-                <div class="col-md-6">
-                    <img src="../assets/images/contenu2.jpg" class="img-fluid rounded shadow" alt="Rejoignez-nous">
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- CONTENU 5 -->
     <section class="contenu5 py-5 text-center">
         <div class="container">
             <h2>Découvrez nos expertises</h2>
             <!-- <button class="btn btn-outline-success my-3">En savoir plus 🌳</button> -->
-             <br><br>
+            <br><br>
             <div class="row g-4" id="texte-contenu5">
                 <div class="col-md-6 border" id="social2">
                     <h3 class="expertise-title"><i>Justice et résilience climatique</i></h3>
@@ -219,47 +218,8 @@
     </section>
 
     <!-- CONTENU 8 -->
-    <section class="contenu8 py-5">
-        <div class="container">
-            <h1 class="text-center mb-5"><strong>GHM EN CHIFFRES</strong></h1>
 
-            <div class="row align-items-center mb-4">
-                <div class="col-12 col-md-2 text-center">
-                    <div id="chiffre"><strong>4</strong></div>
-                </div>
-                <div class="col-12 col-md-10 text-center text-md-start">
-                    <div id="txt"><strong>Régions d’intervention</strong></div>
-                </div>
-            </div>
 
-            <div class="row align-items-center mb-4">
-                <div class="col-12 col-md-2 text-center">
-                    <div id="chiffre"><strong>3</strong></div>
-                </div>
-                <div class="col-12 col-md-10 text-center text-md-start">
-                    <div id="txt"><strong>Thématiques/expertises</strong></div>
-                </div>
-            </div>
-
-            <div class="row align-items-center mb-4">
-                <div class="col-12 col-md-2 text-center">
-                    <div id="chiffre"><strong>13</strong></div>
-                </div>
-                <div class="col-12 col-md-10 text-center text-md-start">
-                    <div id="txt"><strong>Partenaires</strong></div>
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-12 col-md-2 text-center">
-                    <div id="chiffre"><strong>10 000</strong></div>
-                </div>
-                <div class="col-12 col-md-10 text-center text-md-start">
-                    <div id="txt"><strong>Bénéficiaires directs</strong></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- CONTENU 7 -->
     <section class="contenu7 py-5 text-center">
@@ -268,7 +228,6 @@
             <p>C’est grâce à vous, à eux, à moi que le monde va changer.</p>
         </div>
     </section>
-
     <?php include('../inc/footer.php'); ?>
 </body>
 

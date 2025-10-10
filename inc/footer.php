@@ -39,14 +39,11 @@
                     <h5 class="mb-4">Suivez-nous</h5>
                     <a href="https://www.facebook.com/profile.php?id=100070218532855" class="me-3"><img src="../assets/images/facebook.jpg" alt="Facebook" style="height: 24px;"></a>
                     <!-- <a href="#" class="me-2"><img src="../assets/images/x.png" alt="Twitter" style="height: 24px;"></a>  -->
-                    <a href="#" class="me-3"><img src="../assets/images/instagram.png" alt="Instagram" style="height: 24px;"></a>
                     <a href="#" class="me-3"><img src="../assets/images/linkedin.png" alt="linkedin" style="height: 24px;"></a>
                     <!-- <a href="#"><img src="../assets/images/yt.png" alt="YouTube" style="height: 24px;"></a> -->
                 </div>
             </div>
-
             <hr>
-
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
                     <p class="mb-0">&copy; <?= date("Y") ?> Terre Verte. Tous droits réservés.</p>
