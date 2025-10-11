@@ -204,7 +204,7 @@
                 <div class="col-6 col-md-4">
                     <div class="valeur">
                         <img src="../assets/images/citoyen.jpg" class="img-fluid rounded-circle" alt="">
-                        <strong>ENGAGEMENT</strong>
+                        <strong>ACTIONS</strong>
                     </div>
                 </div>
                 <div class="col-6 col-md-4">
@@ -216,11 +216,6 @@
             </div>
         </div>
     </section>
-
-    <!-- CONTENU 8 -->
-
-
-
     <!-- CONTENU 7 -->
     <section class="contenu7 py-5 text-center">
         <div class="container">
@@ -228,6 +223,17 @@
             <p>C’est grâce à vous, à eux, à moi que le monde va changer.</p>
         </div>
     </section>
+
+
+    <div class="scroll-down text-center mt-5 mb-4">
+        <p class="text-success fw-bold">Pour plus d'informations 🌱</p>
+        <div class="arrow-container">
+            <span class="arrow-down"></span>
+            <span class="arrow-down"></span>
+            <span class="arrow-down"></span>
+        </div>
+    </div>
+
     <?php include('../inc/footer.php'); ?>
 </body>
 

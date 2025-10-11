@@ -1,7 +1,30 @@
 /* ===== NAVBAR ===== */
+.btn_up {
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.icone {
+    width: 50px;
+}
+
 .logo_soratra {
     justify-content: center;
     align-items: center;
+}
+
+.logo_soratra img {
+    width: 400px;
+    height: 100px;
 }
 
 #nav {
@@ -122,7 +145,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 200px;
     height: 120px;
     border-radius: 50%;
     background: rgb(109, 179, 4);
@@ -170,8 +193,6 @@ a {
     opacity: 1;
     transform: translateX(0);
 }
-
-
 
 #chiffre {
     width: 200px;
@@ -264,5 +285,56 @@ a {
 
     #txt {
         font-size: 1rem;
+    }
+}
+
+
+.scroll-down {
+    position: relative;
+    text-align: center;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+/* Flèche stylisée */
+.arrow-down {
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid #83b821;
+    border-bottom: 3px solid #83b821;
+    transform: rotate(-45deg);
+    animation: arrowMove 1.5s infinite;
+}
+
+/* Animation décalée entre les flèches */
+.arrow-down:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.arrow-down:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+/* Animation de descente fluide */
+@keyframes arrowMove {
+    0% {
+        opacity: 0;
+        transform: rotate(-45deg) translateY(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: rotate(-45deg) translateY(8px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(-45deg) translateY(16px);
     }
 }

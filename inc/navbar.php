@@ -14,9 +14,9 @@
     <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="../pages/index.php">
-                <img src="../assets/images/logo.jpg" alt="Logo" class="d-inline-block align-text-top" style="height: 60px; border-radius: 100%; width:60px">
+                <img src="../assets/images/logo.jpg" alt="Logo" class="d-inline-block align-text-top" style="height: 60px; border-radius: 100%; width:80px">
             </a>
-            <span class="logo_soratra">Green for a Healthy Madagascar</span>
+            <span class="logo_soratra"><strong><img src="../assets/images/logo_soratra.jpg" alt=""></strong></span>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +47,11 @@
             </div>
         </div>
     </nav>
+    <div class="btn_up">
+        <img src="../assets/images/arrow-up-solid-svgrepo-com.svg" alt="" class="icone">
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="../assets/js_add/nav.js"></script>
 
 </body>
 
